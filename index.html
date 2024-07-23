@@ -36,10 +36,26 @@ img {
   border-radius: 1em;
 }
 
+blockquote {
+  padding: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  font-size: 130%;
+  max-width: 512px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
 /* Media query for devices up to 600px wide */
 @media only screen and (max-width: 600px) {
   img {
     width: 100%; /* Makes images fully responsive */
+  }
+  blockquote {
+     padding-left: 0;
+     padding-right: 0;
+     max-width: 100%;
+     width: 100%;
   }
 }
 </style>
@@ -50,6 +66,14 @@ img {
 		<header>
 			<h1>Can AI Draw a Spork Yet?</h1>
 		</header>
+
+		<hgroup>
+			<h2>July 2024: No (GPT4)</h2>
+			<img src="img/2024/7/gpt4.23rd.jpg" />
+			<blockquote>
+				&laquo;Here's a detailed close-up of a spork in use, highlighting its unique dual functionality as both a spoon and a fork.&raquo;
+			</blockquote>
+		</hgroup>
 
 		<hgroup>
 			<h2>July 2024: No (GPT4)</h2>
