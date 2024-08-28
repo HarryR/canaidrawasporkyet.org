@@ -14,6 +14,6 @@ Add them to `index.html`, under the `header` tag, and submit as a PR.
 
 <hgroup>
   <h2>Month YEAR: [Yes|No] (AI-Name)</h2>
-  <img src="img/20YY/M/ainame.jpg" />
+  <img width=512 height=512 src="img/20YY/M/ainame.jpg" />
 </hgroup>
 ```
